@@ -4,9 +4,10 @@ import {
     HoverCardContent,
     HoverCardTrigger,
 } from "../../components/ui/HoverCard"
-
+import { useNavigate } from "react-router-dom";
 
 const MainContent = () => {
+    const navigate = useNavigate();
     return (
         <main className={`${styles.mainContent} container mx-auto px-4 py-8 space-y-8`}>
             <div className="text-5xl font-bold">
@@ -35,6 +36,7 @@ const MainContent = () => {
                             <img
                                 src="https://img.icons8.com/?size=100&id=1683&format=png&color=000000"
                                 alt="Gallery Icon"
+                                onClick={() => navigate("/gallery")}
                             />
                         </HoverCardTrigger>
                         <HoverCardContent>
@@ -42,12 +44,13 @@ const MainContent = () => {
                         </HoverCardContent>
                     </HoverCard>
                 </div>
-                <div onClick={() => window.open("https://medium.com/@izharhamdan", "_blank")}>
+                <div>
                     <HoverCard>
                         <HoverCardTrigger>
                             <img
                                 src="https://img.icons8.com/?size=100&id=6592&format=png&color=000000"
                                 alt="writings Icon"
+                                onClick={() => window.open("https://medium.com/@izharhamdan", "_blank")}
                             />
                         </HoverCardTrigger>
                         <HoverCardContent>
@@ -61,6 +64,7 @@ const MainContent = () => {
                             <img
                                 src="https://img.icons8.com/?size=100&id=524&format=png&color=000000"
                                 alt="product Icon"
+                                onClick={() => navigate("/product")}
                             />
                         </HoverCardTrigger>
                         <HoverCardContent>
@@ -74,6 +78,7 @@ const MainContent = () => {
                             <img
                                 src="https://img.icons8.com/?size=100&id=1762&format=png&color=000000"
                                 alt="art Icon"
+                                onClick={() => navigate("/art")}
                             />
                         </HoverCardTrigger>
                         <HoverCardContent>
