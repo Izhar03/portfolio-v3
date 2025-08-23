@@ -1,0 +1,29 @@
+// // SCSS Variables (compile-time)
+// $primary-blue-light: #0D0DFF;
+// $primary-blue-dark: #000080;
+
+// $white: #FFFFFF;
+// $black: #000000;
+// $gray-medium: #666666;
+// $gray-light: #F5F5F5;
+
+// $gradient-primary: linear-gradient(90deg, $primary-blue-light, $primary-blue-dark);
+
+// // CSS Variables (runtime, reusable in React inline styles, themes, etc.)
+// :root {
+//   --color-primary-blue-dark: #{$primary-blue-dark};
+//   --color-primary-blue-light: #{$primary-blue-light};
+//   --color-white: #{$white};
+//   --color-black: #{$black};
+//   --color-gray-medium: #{$gray-medium};
+//   --color-gray-light: #{$gray-light};
+//   --gradient-primary: #{$gradient-primary};
+// }
+
+// /* Dark theme overrides */
+// [data-theme='dark'] {
+//   --color-primary-blue-light: #4F46E5;
+//   --color-primary-blue-dark: #1E1B4B;
+//   --color-gray-light: #111827;
+//   --color-black: #F9FAFB;
+// }

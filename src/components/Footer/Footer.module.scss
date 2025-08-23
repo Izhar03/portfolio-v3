@@ -1,0 +1,33 @@
+.footer {
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.875rem;
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+  
+      a {
+        color: #0D0DFF; 
+        transition: color 0.3s ease;
+  
+        &:hover {
+        transform: scale(1.1);
+          color: #333; 
+        }
+  
+        svg {
+          width: 1.5rem;
+          height: 1.5rem;
+          transition: transform 0.2s ease;
+
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+  

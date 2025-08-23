@@ -1,0 +1,14 @@
+
+.topbar {
+    color: #0D0DFF;
+}
+
+.icon {
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  color: #0D0DFF;
+  
+  &:hover {
+    transform: scale(1.1); 
+  }
+}
