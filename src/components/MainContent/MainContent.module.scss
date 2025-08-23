@@ -1,3 +1,18 @@
 .mainContent {
+  color: #000080;
+}
+
+.link {
+  color: #000080;
+  text-decoration: underline;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: scale(1.1);
+    color: #0D0DFF;
+  }
+}
+
+.hoverCardContent {
   color: #0D0DFF;
 }
