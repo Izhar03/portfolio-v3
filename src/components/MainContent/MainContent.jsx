@@ -48,6 +48,20 @@ const MainContent = () => {
                     <HoverCard>
                         <HoverCardTrigger>
                             <img
+                                src="https://img.icons8.com/?size=100&id=230&format=png&color=000000"
+                                alt="Spotify Icon"
+                                onClick={() => window.open("https://open.spotify.com/user/31hgs7yt4ghbhlzowgpunvnqfq74?si=tWrrME6gQKSXAzH577b8hw", "_blank")}
+                            />
+                        </HoverCardTrigger>
+                        <HoverCardContent>
+                            <p>some spotify playlists</p>
+                        </HoverCardContent>
+                    </HoverCard>
+                </div>
+                <div>
+                    <HoverCard>
+                        <HoverCardTrigger>
+                            <img
                                 src="https://img.icons8.com/?size=100&id=6592&format=png&color=000000"
                                 alt="writings Icon"
                                 onClick={() => window.open("https://medium.com/@izharhamdan", "_blank")}

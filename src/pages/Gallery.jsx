@@ -5,6 +5,12 @@ import image3 from '../assets/images/3.jpg';
 import image4 from '../assets/images/4.jpg';
 import image5 from '../assets/images/5.jpg';
 import image6 from '../assets/images/6.jpg';
+import image7 from '../assets/images/7.jpeg';
+import image8 from '../assets/images/8.jpeg';
+import image9 from '../assets/images/9.jpeg';
+import image10 from '../assets/images/10.jpeg';
+import image11 from '../assets/images/11.jpeg';
+import image12 from '../assets/images/12.jpeg';
 
 const TypographyBlockquote = () => {
   return (
@@ -29,7 +35,13 @@ const GalleryPage = () => {
     { src: image3, title: "Serene View", description: "Nature's peaceful embrace" },
     { src: image4, title: "Joyful Connection", description: "Happiness shared together" },
     { src: image5, title: "Timeless Beauty", description: "Memories that last forever" },
-    { src: image6, title: "Perfect Harmony", description: "When everything aligns" }
+    { src: image6, title: "Perfect Harmony", description: "When everything aligns" },
+    { src: image7, title: "Perfect Harmony", description: "When everything aligns" },
+    { src: image8, title: "Perfect Harmony", description: "When everything aligns" },
+    { src: image9, title: "Perfect Harmony", description: "When everything aligns" },
+    { src: image10, title: "Perfect Harmony", description: "When everything aligns" },
+    { src: image11, title: "Perfect Harmony", description: "When everything aligns" },
+    { src: image12, title: "Perfect Harmony", description: "When everything aligns" },
   ];
 
   const handleCardClick = (index) => {
