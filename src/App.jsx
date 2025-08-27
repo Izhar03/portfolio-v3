@@ -7,10 +7,25 @@ import ProductPage from "./pages/Product"
 import ArtPage from "./pages/Art"
 
 function App() {
+
+  const topBarTitle = [
+    <span key="download" className="flex items-center gap-2">
+      No time for website and want a 6 second glance into my resume? :
+      <a
+        href="https://drive.google.com/file/d/1U-nkZT94OCCieGIaRiVPNjIjWgPZdM00/view?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline hover:text-blue-800"
+      >
+        Resume Link
+      </a>
+    </span>,
+  ];
+
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-gray-50">
-        <TopBar title="Sorry for hurting your eyes" />
+        <TopBar title={topBarTitle}/>
         <Routes>
           <Route path="/" element={<MainContent />} />
           <Route path="/gallery" element={<GalleryPage />} />
