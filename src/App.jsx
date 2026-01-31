@@ -12,7 +12,7 @@ function App() {
     <span key="download" className="flex items-center gap-2">
       No time for website and want a 6 second glance into my resume? :
       <a
-        href="https://drive.google.com/file/d/1U-nkZT94OCCieGIaRiVPNjIjWgPZdM00/view?usp=sharing"
+        href="https://drive.google.com/file/d/1OTv6Z6eNXhJg22D8Mhh-y5Pl_QjLXRpM/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
         className="text-blue-600 underline hover:text-blue-800"
