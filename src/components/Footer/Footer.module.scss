@@ -1,7 +1,13 @@
 .footer {
-    padding: 2rem;
+    padding: 1rem;
     text-align: center;
     font-size: 0.875rem;
+    max-width: 100%;
+    overflow-x: hidden;
+  
+    @media (min-width: 640px) {
+      padding: 2rem;
+    }
   
     .social-icons {
       display: flex;

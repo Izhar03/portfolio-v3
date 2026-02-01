@@ -20,14 +20,14 @@ const TypographyBlockquote = () => {
 
 const GalleryPage = () => {
   return (
-    <div className="p-10 text-3xl">
+    <div className="p-4 pb-8 sm:p-6 sm:pb-10 md:p-10 md:pb-12 text-lg sm:text-xl md:text-2xl lg:text-3xl">
       <span className="font-bold text-[#000080]">
         Gallery (noun), Latin 'galilea'
       </span>
 
       <TypographyBlockquote />
 
-      <div className="columns-3 gap-2 space-y-2 mt-10">
+      <div className="columns-1 sm:columns-2 lg:columns-3 gap-2 space-y-2 mt-10">
         {images.map((publicId, index) => {
           const imageUrl = `${CLOUDINARY_BASE_URL}/${CLOUDINARY_TRANSFORM}/${publicId}`;
 

@@ -24,14 +24,16 @@ function App() {
 
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-gray-50">
-        <TopBar title={topBarTitle}/>
-        <Routes>
-          <Route path="/" element={<MainContent />} />
-          <Route path="/gallery" element={<GalleryPage />} />
-          <Route path="/product" element={<ProductPage />} />
-          <Route path="/art" element={<ArtPage />} />
-        </Routes>
+      <div className="min-h-screen flex flex-col overflow-x-hidden w-full">
+        <TopBar title={topBarTitle} />
+        <div className="flex-grow w-full">
+          <Routes>
+            <Route path="/" element={<MainContent />} />
+            <Route path="/gallery" element={<GalleryPage />} />
+            <Route path="/product" element={<ProductPage />} />
+            <Route path="/art" element={<ArtPage />} />
+          </Routes>
+        </div>
         <Footer />
       </div>
     </BrowserRouter>
